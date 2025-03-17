@@ -1,4 +1,3 @@
-// src/pages/AudioCompleted.tsx
 import { useRef, useState } from 'react';
 import Sidebar from '../components/sidebar';
 import Header from '../components/header';

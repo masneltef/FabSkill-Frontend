@@ -1,4 +1,3 @@
-// src/pages/AudioProgress.tsx
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Sidebar from '../components/sidebar';

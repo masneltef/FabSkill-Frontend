@@ -1,8 +1,7 @@
-// src/pages/AudioUpload.tsx
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Sidebar from '../components/sidebar';
-import Header from '../components/header';
+import Header from '../components/Header';
 import ProgressBar from '../components/ProgressBar';
 
 const AudioUpload = () => {

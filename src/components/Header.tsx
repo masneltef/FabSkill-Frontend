@@ -1,4 +1,3 @@
-// src/components/Header.tsx
 import { FC } from 'react';
 
 interface HeaderProps {

@@ -1,4 +1,3 @@
-// src/components/ProgressBar.tsx
 import { FC } from 'react';
 
 interface ProgressBarProps {
