@@ -35,13 +35,13 @@ const Sidebar: FC<SidebarProps> = ({
       {/* Main Navigation */}
       <div className="flex-grow">
         <Link 
-          to="/overview" 
-          className={`flex items-center px-6 py-3 text-sm ${isActive('/overview') ? 'bg-[#5932ca] border-l-4 border-white' : 'hover:bg-[#5932ca]'}`}
+          to="/dashboard" 
+          className={`flex items-center px-6 py-3 text-sm ${isActive('/dashboard') ? 'bg-[#5932ca] border-l-4 border-white' : 'hover:bg-[#5932ca]'}`}
         >
           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 10h16M4 14h16M4 18h16" />
           </svg>
-          Overview
+          Dashboard
         </Link>
 
         <Link 

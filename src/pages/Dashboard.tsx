@@ -1,4 +1,3 @@
-// src/pages/Overview.tsx
 import { useState } from 'react';
 import Sidebar from '../components/sidebar';
 import Header from '../components/Header';

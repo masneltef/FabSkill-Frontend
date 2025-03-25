@@ -7,7 +7,7 @@ import AudioProgress from './pages/AudioProgress';
 import AudioTranslate from './pages/AudioTranslate';
 import AudioCompleted from './pages/AudioCompleted';
 import Interviews from './pages/Interview';
-import Overview from './pages/Overview';
+import Dashboard from './pages/Dashboard';
 import Reports from './pages/Reports';
 import Candidates from './pages/Candidates';
 import Settings from './pages/Settings';
@@ -24,7 +24,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         
         {/* Main Dashboard Routes */}
-        <Route path="/overview" element={<Overview />} />
+        <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/reports" element={<Reports />} />
         <Route path="/candidates" element={<Candidates />} />
         <Route path="/interviews" element={<Interviews />} />

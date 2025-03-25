@@ -1,7 +1,7 @@
 // src/pages/Help.tsx
 import { useState } from 'react';
 import Sidebar from '../components/sidebar';
-import Header from '../components/header';
+import Header from '../components/Header';
 
 const Help = () => {
   const [activeTab, setActiveTab] = useState<string>('faq');
